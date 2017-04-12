@@ -81,13 +81,13 @@
     margin-top: 10px;
   }
   p code,li code{
-    padding: 1px 3px;
-    margin: 0 3px;
-    background: #ddd;
-    border: 1px solid #ccc;
-    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+		padding: 2px 4px;
     word-wrap: break-word;
-    font-size: 14px;
+    color: #555;
+    background: #eee;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
   }
   blockquote {
     background: #ddd;
@@ -107,27 +107,25 @@
   ul, ol{
     li:before{
       content: "";
-      width: 6px;
-      height: 6px;
-      border: 1px solid #999;
+      width: 5px;
+      height: 5px;
       border-radius: 10px;
-      background: #aaa;
+      background: #475669;
       display: inline-block;
-      margin-right: 10px;
+      margin: 12px 8px 0 0;
       float: left;
-      margin-top: 12px;
     }
   }
   ul,ol{
     font-size: 14px;
-    margin: 10px 0px;  
+    margin: 10px 0px;
   }
   li{
     ul,ol{
       margin-left: 30px;
       li:before{
         content: "";
-        background: #dedede;
+        background: #475669;
       }
     }
   }
